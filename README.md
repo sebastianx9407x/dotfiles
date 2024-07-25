@@ -1,5 +1,5 @@
 # My Arch Linux Config Files
-
+![Alt Text](screenshot.png)
 ## Environment:
 [Hyprland](https://github.com/hyprwm/Hyprland)
 
