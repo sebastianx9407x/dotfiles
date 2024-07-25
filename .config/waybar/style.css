@@ -1,0 +1,164 @@
+@import "mocha.css";
+
+
+* {
+  font-family: CaskaydiaMono NF;
+  font-size: 17px;
+  min-height: 0;
+}
+
+window#waybar {
+  background-color: @base;
+  color: @text;
+}
+
+window#waybar.hidden {
+  opacity: 0.2;
+}
+
+
+#window,
+#workspaces,
+#tray,
+#custom-cpuinfo,
+#custom-gpuinfo,
+#memory,
+#network,
+#pulseaudio,
+#battery,
+#custom-notification,
+#custom-updates,
+#clock,
+#custom-power,
+#custom-l_end_pc,
+#custom-r_end_pc,
+#custom-r_end_window, 
+#custom-l_end_window,
+#custom-l_end_device,
+#custom-r_end_device,
+#custom-l_end_system,
+#custom-r_end_system
+{
+  padding-left: 4px;
+  padding-right: 4px;
+  margin: 6px 0px 6px 0px;
+  opacity: 1;
+}
+
+
+
+#window,
+#custom-l_end_window,
+#custom-r_end_window{
+  background-color: @peach;
+  color: @base;
+}
+
+#workspaces {
+  background-color: @surface0;
+  border-radius: 1rem;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#workspaces button {
+  color: @pink;
+  border-radius: 1rem;
+  padding: 0.4rem;
+}
+
+#workspaces button.empty {
+  color: @teal;
+  border-radius: 1rem;
+}
+
+#workspaces button.active {
+  color: @yellow;
+  border-radius: 1rem;
+}
+
+#workspaces button:hover {
+  color: @sapphire;
+  border-radius: 1rem;
+}
+
+#tray {
+  margin-right: 1rem;
+  border-radius: 1rem;
+}
+
+#custom-cpuinfo,
+#custom-gpuinfo,
+#memory,
+#network,
+#custom-l_end_pc,
+#custom-r_end_pc{
+  background-color: @yellow;
+  color: @base;
+}
+
+#pulseaudio,
+#battery,
+#custom-l_end_device,
+#custom-r_end_device
+{
+  background-color: @green;
+  color: @base
+}
+
+#battery.charging {
+  color: @green;
+}
+
+#battery.warning:not(.charging) {
+  color: @yellow;
+}
+#battery.critical:not(.charging) {
+  color: @red;
+}
+
+#custom-notification,
+#custom-updates,
+#clock,
+#custom-power,
+#custom-r_end_system,
+#custom-l_end_system {
+  background-color: @sapphire;
+  color: @base;
+}
+
+
+
+
+
+
+
+
+
+
+ 
+#custom-r_end,
+#custom-r_end_window,
+#custom-r_end_pc,
+#custom-r_end_device, 
+#custom-r_end_system
+{
+    border-radius: 0px 2rem 2rem 0px;
+    margin-right: 9px;
+    padding-right: 3px;
+}
+
+#custom-l_end,
+#custom-l_end_window,
+#custom-l_end_pc,
+#custom-l_end_device,
+#custom-l_end_system   
+{
+    border-radius: 2rem 0px 0px 2rem;
+    margin-left: 9px;
+    padding-left: 3px;
+}
+
+
+
+

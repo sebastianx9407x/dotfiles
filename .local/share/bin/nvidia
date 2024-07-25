@@ -1,0 +1,3 @@
+nvidia_address="01:00.0"
+nvidia_gpu="GeForce RTX 3080 Ti"
+nvidia_flag=1
