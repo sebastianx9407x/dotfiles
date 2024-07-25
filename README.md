@@ -1,13 +1,15 @@
 #My Arch Linux Config Files
-# Enviorment:
+#Enviorment:
 Hyprland
-# Terminal:
+#Terminal:
 Kitty
-# Lock:
+#Lock:
 Swaylock
-# Statusbar:
+#Statusbar:
 waybar
-# Power Manager:
+#Power Manager:
 wlogout
-# Application Manager:
+#Application Manager:
 wofi
+#Notification Daemon:
+swaync
