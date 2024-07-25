@@ -1,5 +1,5 @@
 #My Arch Linux Config Files
-#Enviorment:
+#Enviorment:\n
 Hyprland
 #Terminal:
 Kitty
