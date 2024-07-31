@@ -85,6 +85,12 @@ window#waybar.hidden {
 #tray {
   margin-right: 1rem;
   border-radius: 1rem;
+  background-color: @surface1;
+}
+
+#tray button:hover {
+  color: @sapphire;
+  border-radius: 1rem;
 }
 
 #custom-cpuinfo,
