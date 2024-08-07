@@ -69,10 +69,10 @@
         "rewrite": {
             "(.*) — Mozilla Firefox": " Firefox 󰈹",
             "(.*)Mozilla Firefox": " Firefox 󰈹",
-            "(.*) - Visual Studio Code": " $1 󰨞",
+            "(.*) - Visual Studio Code": "$1 󰨞",
             "(.*)Code - OSS": " Code 󰨞",
             "(.*)Brave": " Brave 󱢾",
-            "(.*) — Dolphin": " $1 󰉋",
+            "(.*) — Dolphin": "$1 󰉋",
             "(.*)Spotify": " Spotify 󰓇",
             "(.*)Steam": " Steam 󰓓"
         },
