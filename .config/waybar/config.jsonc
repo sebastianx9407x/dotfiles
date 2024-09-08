@@ -198,7 +198,7 @@
         }
     },
     "pulseaudio#microphone": {
-        "format": "{format_source}",
+        "format": "{format_source} ",
         "format-source": "",
         "format-source-muted": " ",
         "on-click": "pavucontrol -t 4",

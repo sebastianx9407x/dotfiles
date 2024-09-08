@@ -112,9 +112,9 @@ window#waybar.hidden {
   color: @base
 }
 
-#battery.charging {
-  color: @green;
-}
+/* #battery.charging {
+  color: @black;
+} */
 
 #battery.warning:not(.charging) {
   color: @yellow;
